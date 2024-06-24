@@ -1,0 +1,5 @@
+﻿langchain==0.1.4
+langchain-openai
+unstructured
+unstructured[pdf]
+streamlit==1.31.0
