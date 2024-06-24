@@ -26,7 +26,7 @@ documents) at runtime, leading to outputs that are informed by a broader context
 
 Clone the repository and install the dependencies:
 ```bash
-git clone https://github.com/ASHISRAVINDRAN/custom-chatbot-app.git
+git clone https://github.com/shirikoushik/custom-chat-bot.git
 cd custom-chatbot-app
 pip install -r requirements.txt
 ```
