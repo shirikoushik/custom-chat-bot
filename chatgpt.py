@@ -4,8 +4,9 @@ from pprint import pprint
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.document_loaders import DirectoryLoader
 from langchain_openai import ChatOpenAI
-from secretkey import OPENAI_API_KEY
-os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
+#from secretkey import OPENAI_API_KEY
+import streamlit as st
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 
 class MITKOpenAI:
