@@ -8,7 +8,7 @@ import time
 
 
 class MITKGPT4All:
-    def __init__(self, file_path: str = "./data/data.txt"):
+    def __init__(self, file_path: str = "data/data.txt"):
         llm = GPT4All(
             model="./wizardlm-13b-v1.2.Q4_0.gguf",
             #model="./mistral-7b-openorca.Q4_0.gguf",
