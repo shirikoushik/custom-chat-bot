@@ -4,3 +4,4 @@ unstructured
 unstructured[pdf]
 streamlit==1.31.0
 chromadb
+pysqlite3-binary
