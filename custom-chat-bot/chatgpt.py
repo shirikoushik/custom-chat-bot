@@ -10,7 +10,7 @@ os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 
 class MITKOpenAI:
 
-    def __init__(self, path:str = "./data/", temperature = 0.6):
+    def __init__(self, path:str = "data/", temperature = 0.6):
         loader = DirectoryLoader(path, glob="*.pdf")
         self.index = VectorstoreIndexCreator().from_loaders([loader])
         self.llm = ChatOpenAI(openai_api_key= OPENAI_API_KEY, model="gpt-3.5-turbo", temperature=temperature)
